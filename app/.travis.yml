@@ -1,7 +1,2 @@
 language: ruby
-rvm:
-  - 2.0.0
-
-script: 
-  - "bundle exec rspec"
-  - "bundle exec rake"
+script:true
