@@ -6,4 +6,7 @@ branches:
   only:
     - master
 
+ Gemfile:
+  - Gemfile
+
 script: "bundle exec rspec"
