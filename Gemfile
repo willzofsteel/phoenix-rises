@@ -1,5 +1,5 @@
 source :rubygems
 
-group :test do
-  gem "rspec"
-end
+gem "rake"
+gem "rspec"
+gem "simplecov", :require => false, :group => :test
