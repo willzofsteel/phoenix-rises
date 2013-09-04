@@ -1,2 +1,1 @@
 bundle install
-rake
