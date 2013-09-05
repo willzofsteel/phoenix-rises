@@ -288,7 +288,7 @@ a {
     <script type="text/javascript">moveProgressBar('50.0');</script>
     <dd class="example failed">
       <span class="failed_spec_name">should be another test</span>
-      <span class="duration">0.00040s</span>
+      <span class="duration">0.00042s</span>
       <div class="failure" id="failure_1">
         <div class="message"><pre>
 expected: false
@@ -311,10 +311,10 @@ expected: false
   <dl style="margin-left: 0px;">
   <dt id="example_group_2" class="passed">hi</dt>
     <script type="text/javascript">moveProgressBar('100.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">should say hi</span><span class='duration'>0.00010s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">should say hi</span><span class='duration'>0.00009s</span></dd>
   </dl>
 </div>
-<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0.00237 seconds</strong>";</script>
+<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0.00234 seconds</strong>";</script>
 <script type="text/javascript">document.getElementById('totals').innerHTML = "2 examples, 1 failure";</script>
 </div>
 </div>
