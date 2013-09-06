@@ -1,0 +1,31 @@
+// Place all the styles related to the projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.build-status-indicator{
+	margin: 4px 4px 0 0;
+
+	.circle{
+		border-radius: 50%;
+		width: 25px;
+		height: 25px;	
+		display: inline-block;
+	}
+	.FAILURE{
+		background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, red 95%, orange 0%, red 100%);
+		background-image: -webkit-radial-gradient(45px 45px, circle cover, red, red, red);
+		background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 0%, red 100%);
+	}
+
+	.SUCCESS{
+		background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, green 95%, green 95%, green 95%);
+		background-image: -webkit-radial-gradient(45px 45px, circle cover, green, green, green);
+		background-image: radial-gradient(45px 45px 45deg, circle cover, green 95%, green 95%, green 95%);	
+	}
+
+	.PENDING{
+		background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, orange 95%, orange 95%, orange 95%);
+		background-image: -webkit-radial-gradient(45px 45px, circle cover, orange, orange, orange);
+		background-image: radial-gradient(45px 45px 45deg, circle cover, orange 95%, orange 95%, orange 95%);	
+	}
+	
+}

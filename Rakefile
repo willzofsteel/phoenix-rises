@@ -1,16 +1,6 @@
-# require 'ci/reporter/rake/rspec'
-# require 'rspec/core/rake_task'
+# Add your own tasks in files placed in lib/tasks ending in .rake,
+# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
-# RSpec::Core::RakeTask.new(:spec) do |config|
-# 	config.rspec_opts = "--format h --out tests"
-# end
+require File.expand_path('../config/application', __FILE__)
 
-task :coverage do
-	ENV["COVERAGE"] = 'yes'
-
-	Rake::Task['spec'].execute
-end
-
-task :default do
-	puts 'say hello'
-end
+PhoenixRises::Application.load_tasks

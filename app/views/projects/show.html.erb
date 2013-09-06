@@ -1,0 +1,16 @@
+<section>
+	Project: <%= @project.title %> <br>
+	Repo: <%= @project.repo_location %> <br>
+	CI: <%= @project.ci_location %> <br>	
+
+	<div class="build-status-indicator">
+		build-status: 
+		<div class="circle <%= @current_build_status%>"><div>	
+	</div>
+
+    <br>
+
+    <%= javascript_tag "connect_socket();" %>
+    
+	
+<section>

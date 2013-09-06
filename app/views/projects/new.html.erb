@@ -1,0 +1,19 @@
+<%= form_for :project, url: projects_path do |f| %>
+<p>
+	<%= f.label :title %><br>
+	<%= f.text_field :title %>
+</p>
+
+<p>
+	<%= f.label :repo_location%><br>
+	<%= f.text_field :repo_location %>
+</p>
+
+<p>
+	<%= f.label :ci_location%><br>
+	<%= f.text_field :ci_location %>
+</p>
+
+<p><%= f.submit %></p>
+
+<% end %>
